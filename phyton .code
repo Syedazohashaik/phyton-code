@@ -1,0 +1,17 @@
+# Creating a tuple
+my_tuple = (1, 2, 3, 4, 5)
+
+# Accessing elements
+print(my_tuple[0])  # Prints the first element, 1
+print(my_tuple[-1]) # Prints the last element, 5
+
+# Slicing
+print(my_tuple[1:4]) # Prints elements from index 1 to 3, (2, 3, 4)
+
+# Tuple unpacking
+a, b, c, d, e = my_tuple
+print(a, b, c, d, e)  # Prints 1 2 3 4 5
+
+# Iterating through elements
+for num in my_tuple:
+    print(num)
